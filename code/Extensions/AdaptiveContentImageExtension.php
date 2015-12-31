@@ -10,11 +10,9 @@ class AdaptiveContentImageExtension extends Extension
      */
     public function updateCMSFields(FieldList &$fields)
     {
-
         $fields->addFieldToTab(
             'Root.Main',
             new TextareaField('Content', 'Content')
         );
-
     }
 }

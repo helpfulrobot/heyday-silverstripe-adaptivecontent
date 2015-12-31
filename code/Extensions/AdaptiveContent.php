@@ -65,8 +65,6 @@ class AdaptiveContent extends DataExtension
             'Root.Files',
             new UploadField('Files', 'Files', $this->owner->Files())
         );
-
-
     }
     /**
      * @param  bool $title

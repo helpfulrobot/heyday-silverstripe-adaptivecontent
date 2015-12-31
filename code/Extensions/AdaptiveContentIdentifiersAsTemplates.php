@@ -186,7 +186,7 @@ class AdaptiveContentIdentifiersAsTemplates extends DataExtension
             RecursiveIteratorIterator::LEAVES_ONLY
         );
 
-        foreach($iterator as $value) {
+        foreach ($iterator as $value) {
             return $value;
         }
     }
